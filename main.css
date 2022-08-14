@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chizzy {
+  text-transform: uppercase;
+  color:#8e44ad;
+  margin-top: 2rem;
+}
+
+body{
+  background: #03011f;
+  color: white;
+  text-align: center;
+}
+
+.container-fluid {
+ box-shadow: 0 0 16px 20px;
+ color:#8e44ad;
+}
+
+.counter {
+  margin-top: 10rem;
+  box-shadow: 0 0 12px 18px ;
+  padding: 2rem;
+  font-size: 3rem;
+  color:#8e44ad;
+}
+
+#addCount {
+  margin-top: 7rem;
+  box-shadow: 0 0 6px 12px;
+  padding: 10px;
+  margin-right: 2rem;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  font-size: 2rem;
+  background:#03011f;
+  color:#8e44ad;
+  outline: none;
+}
+
+#lowerCount {
+  margin-top: 7rem;
+  box-shadow: 0 0 6px 12px;
+  padding: 10px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #03011f;
+  color:#8e44ad;
+  outline: none;
+}
+
+@media (max-width:320px) {
+.chizzy, .container-fluid, .counter, #addCount, #lowerCount, {
+    width: auto;
+    height: auto;
+ }
+}
+
+@media (max-width:600px) {
+.chizzy, .container-fluid, .counter, #addCount, #lowerCount, {
+    width: auto;
+    height: auto;
+ }
+}
+
+@media (max-width:768px) {
+.chizzy, .container-fluid, .counter, #addCount, #lowerCount, {
+    width: auto;
+    height: auto;
+ }
+}
+
+@media (max-width:1200px) {
+.chizzy, .container-fluid, .counter, #addCount, #lowerCount, {
+    width: auto;
+    height: auto;
+ }
+}
